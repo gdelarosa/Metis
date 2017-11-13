@@ -31,6 +31,9 @@
 		51D4FB881FB9658C0098F8B6 /* VCCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB871FB9658C0098F8B6 /* VCCells.swift */; };
 		51D4FB8B1FB967AB0098F8B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */; };
 		51D4FB8C1FB967AB0098F8B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB8A1FB967AB0098F8B6 /* FBSDKLoginKit.framework */; };
+		51D4FB8E1FB97FB90098F8B6 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB8D1FB97FB90098F8B6 /* Post.swift */; };
+		51D4FB911FB980EF0098F8B6 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB901FB980EF0098F8B6 /* DataService.swift */; };
+		51D4FB931FB981790098F8B6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB921FB981790098F8B6 /* Constants.swift */; };
 		8913DC8BBDF202E9B92B6A7A /* Pods_Metis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBEE16959411485EB4EE66 /* Pods_Metis.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +66,9 @@
 		51D4FB871FB9658C0098F8B6 /* VCCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCells.swift; sourceTree = "<group>"; };
 		51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
 		51D4FB8A1FB967AB0098F8B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
+		51D4FB8D1FB97FB90098F8B6 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		51D4FB901FB980EF0098F8B6 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		51D4FB921FB981790098F8B6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A5BBEE16959411485EB4EE66 /* Pods_Metis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,6 +107,7 @@
 		51D4FB481FB8FDF70098F8B6 /* Metis */ = {
 			isa = PBXGroup;
 			children = (
+				51D4FB8F1FB980D40098F8B6 /* Services */,
 				51D4FB7E1FB964220098F8B6 /* HelperFiles */,
 				51D4FB731FB95CE10098F8B6 /* View */,
 				51D4FB721FB95CB10098F8B6 /* Utilities */,
@@ -125,6 +132,7 @@
 				51D4FB6F1FB95C960098F8B6 /* User.swift */,
 				51D4FB741FB95CF90098F8B6 /* Message.swift */,
 				51D4FB761FB95D040098F8B6 /* Conversation.swift */,
+				51D4FB8D1FB97FB90098F8B6 /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,8 +180,17 @@
 				51D4FB801FB964300098F8B6 /* BadgeSwift.swift */,
 				51D4FB811FB964300098F8B6 /* ContactsManager.swift */,
 				51D4FB7F1FB964300098F8B6 /* Helper Files.swift */,
+				51D4FB921FB981790098F8B6 /* Constants.swift */,
 			);
 			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		51D4FB8F1FB980D40098F8B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB901FB980EF0098F8B6 /* DataService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		872DA18A04AE5A23D556657F /* Frameworks */ = {
@@ -342,13 +359,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D4FB621FB903CE0098F8B6 /* ProfileVC.swift in Sources */,
+				51D4FB931FB981790098F8B6 /* Constants.swift in Sources */,
 				51D4FB841FB964300098F8B6 /* ContactsManager.swift in Sources */,
 				51D4FB791FB95DAE0098F8B6 /* ChatListVC.swift in Sources */,
 				51D4FB601FB903C00098F8B6 /* ChatVC.swift in Sources */,
+				51D4FB8E1FB97FB90098F8B6 /* Post.swift in Sources */,
 				51D4FB6B1FB9222D0098F8B6 /* OnboardingCell.swift in Sources */,
 				51D4FB4E1FB8FDF70098F8B6 /* PostVC.swift in Sources */,
 				51D4FB641FB904020098F8B6 /* WelcomeVC.swift in Sources */,
 				51D4FB771FB95D040098F8B6 /* Conversation.swift in Sources */,
+				51D4FB911FB980EF0098F8B6 /* DataService.swift in Sources */,
 				51D4FB701FB95C960098F8B6 /* User.swift in Sources */,
 				51D4FB4A1FB8FDF70098F8B6 /* AppDelegate.swift in Sources */,
 				51D4FB751FB95CF90098F8B6 /* Message.swift in Sources */,
