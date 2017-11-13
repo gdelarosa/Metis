@@ -18,9 +18,19 @@
 		51D4FB621FB903CE0098F8B6 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB611FB903CE0098F8B6 /* ProfileVC.swift */; };
 		51D4FB641FB904020098F8B6 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB631FB904020098F8B6 /* WelcomeVC.swift */; };
 		51D4FB671FB915440098F8B6 /* LoopingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */; };
-		51D4FB691FB916840098F8B6 /* mountain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB681FB9154F0098F8B6 /* mountain.mp4 */; };
 		51D4FB6B1FB9222D0098F8B6 /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB6A1FB9222D0098F8B6 /* OnboardingCell.swift */; };
 		51D4FB6D1FB92C940098F8B6 /* rainbow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */; };
+		51D4FB701FB95C960098F8B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB6F1FB95C960098F8B6 /* User.swift */; };
+		51D4FB751FB95CF90098F8B6 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB741FB95CF90098F8B6 /* Message.swift */; };
+		51D4FB771FB95D040098F8B6 /* Conversation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB761FB95D040098F8B6 /* Conversation.swift */; };
+		51D4FB791FB95DAE0098F8B6 /* ChatListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB781FB95DAE0098F8B6 /* ChatListVC.swift */; };
+		51D4FB821FB964300098F8B6 /* Helper Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB7F1FB964300098F8B6 /* Helper Files.swift */; };
+		51D4FB831FB964300098F8B6 /* BadgeSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB801FB964300098F8B6 /* BadgeSwift.swift */; };
+		51D4FB841FB964300098F8B6 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB811FB964300098F8B6 /* ContactsManager.swift */; };
+		51D4FB861FB964AA0098F8B6 /* newMessage.wav in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB851FB964AA0098F8B6 /* newMessage.wav */; };
+		51D4FB881FB9658C0098F8B6 /* VCCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB871FB9658C0098F8B6 /* VCCells.swift */; };
+		51D4FB8B1FB967AB0098F8B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */; };
+		51D4FB8C1FB967AB0098F8B6 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB8A1FB967AB0098F8B6 /* FBSDKLoginKit.framework */; };
 		8913DC8BBDF202E9B92B6A7A /* Pods_Metis.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BBEE16959411485EB4EE66 /* Pods_Metis.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,9 +50,19 @@
 		51D4FB611FB903CE0098F8B6 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		51D4FB631FB904020098F8B6 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingVideoView.swift; sourceTree = "<group>"; };
-		51D4FB681FB9154F0098F8B6 /* mountain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mountain.mp4; sourceTree = "<group>"; };
 		51D4FB6A1FB9222D0098F8B6 /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
 		51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainbow.mp4; sourceTree = "<group>"; };
+		51D4FB6F1FB95C960098F8B6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		51D4FB741FB95CF90098F8B6 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		51D4FB761FB95D040098F8B6 /* Conversation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversation.swift; sourceTree = "<group>"; };
+		51D4FB781FB95DAE0098F8B6 /* ChatListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListVC.swift; sourceTree = "<group>"; };
+		51D4FB7F1FB964300098F8B6 /* Helper Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper Files.swift"; sourceTree = "<group>"; };
+		51D4FB801FB964300098F8B6 /* BadgeSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgeSwift.swift; sourceTree = "<group>"; };
+		51D4FB811FB964300098F8B6 /* ContactsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+		51D4FB851FB964AA0098F8B6 /* newMessage.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = newMessage.wav; sourceTree = "<group>"; };
+		51D4FB871FB9658C0098F8B6 /* VCCells.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCCells.swift; sourceTree = "<group>"; };
+		51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
+		51D4FB8A1FB967AB0098F8B6 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKLoginKit.framework"; sourceTree = "<group>"; };
 		A5BBEE16959411485EB4EE66 /* Pods_Metis.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -51,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51D4FB8B1FB967AB0098F8B6 /* FBSDKCoreKit.framework in Frameworks */,
+				51D4FB8C1FB967AB0098F8B6 /* FBSDKLoginKit.framework in Frameworks */,
 				8913DC8BBDF202E9B92B6A7A /* Pods_Metis.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -79,21 +101,12 @@
 		51D4FB481FB8FDF70098F8B6 /* Metis */ = {
 			isa = PBXGroup;
 			children = (
+				51D4FB7E1FB964220098F8B6 /* HelperFiles */,
+				51D4FB731FB95CE10098F8B6 /* View */,
+				51D4FB721FB95CB10098F8B6 /* Utilities */,
+				51D4FB711FB95C990098F8B6 /* Controller */,
+				51D4FB6E1FB95C780098F8B6 /* Model */,
 				51D4FB651FB915360098F8B6 /* LoopingVideo */,
-				51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */,
-				51D4FB631FB904020098F8B6 /* WelcomeVC.swift */,
-				51D4FB6A1FB9222D0098F8B6 /* OnboardingCell.swift */,
-				51D4FB4B1FB8FDF70098F8B6 /* HomeVC.swift */,
-				51D4FB4D1FB8FDF70098F8B6 /* PostVC.swift */,
-				51D4FB5F1FB903C00098F8B6 /* ChatVC.swift */,
-				51D4FB611FB903CE0098F8B6 /* ProfileVC.swift */,
-				51D4FB4F1FB8FDF70098F8B6 /* Main.storyboard */,
-				51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */,
-				51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */,
-				51D4FB571FB8FDF70098F8B6 /* Info.plist */,
-				51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */,
-				51D4FB681FB9154F0098F8B6 /* mountain.mp4 */,
-				51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */,
 			);
 			path = Metis;
 			sourceTree = "<group>";
@@ -106,9 +119,68 @@
 			path = LoopingVideo;
 			sourceTree = "<group>";
 		};
+		51D4FB6E1FB95C780098F8B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB6F1FB95C960098F8B6 /* User.swift */,
+				51D4FB741FB95CF90098F8B6 /* Message.swift */,
+				51D4FB761FB95D040098F8B6 /* Conversation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		51D4FB711FB95C990098F8B6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB4F1FB8FDF70098F8B6 /* Main.storyboard */,
+				51D4FB631FB904020098F8B6 /* WelcomeVC.swift */,
+				51D4FB4B1FB8FDF70098F8B6 /* HomeVC.swift */,
+				51D4FB4D1FB8FDF70098F8B6 /* PostVC.swift */,
+				51D4FB781FB95DAE0098F8B6 /* ChatListVC.swift */,
+				51D4FB5F1FB903C00098F8B6 /* ChatVC.swift */,
+				51D4FB611FB903CE0098F8B6 /* ProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		51D4FB721FB95CB10098F8B6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */,
+				51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */,
+				51D4FB571FB8FDF70098F8B6 /* Info.plist */,
+				51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */,
+				51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */,
+				51D4FB851FB964AA0098F8B6 /* newMessage.wav */,
+				51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		51D4FB731FB95CE10098F8B6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB6A1FB9222D0098F8B6 /* OnboardingCell.swift */,
+				51D4FB871FB9658C0098F8B6 /* VCCells.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		51D4FB7E1FB964220098F8B6 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				51D4FB801FB964300098F8B6 /* BadgeSwift.swift */,
+				51D4FB811FB964300098F8B6 /* ContactsManager.swift */,
+				51D4FB7F1FB964300098F8B6 /* Helper Files.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
 		872DA18A04AE5A23D556657F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */,
+				51D4FB8A1FB967AB0098F8B6 /* FBSDKLoginKit.framework */,
 				A5BBEE16959411485EB4EE66 /* Pods_Metis.framework */,
 			);
 			name = Frameworks;
@@ -186,9 +258,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D4FB561FB8FDF70098F8B6 /* LaunchScreen.storyboard in Resources */,
+				51D4FB861FB964AA0098F8B6 /* newMessage.wav in Resources */,
 				51D4FB5E1FB8FE450098F8B6 /* GoogleService-Info.plist in Resources */,
 				51D4FB531FB8FDF70098F8B6 /* Assets.xcassets in Resources */,
-				51D4FB691FB916840098F8B6 /* mountain.mp4 in Resources */,
 				51D4FB6D1FB92C940098F8B6 /* rainbow.mp4 in Resources */,
 				51D4FB511FB8FDF70098F8B6 /* Main.storyboard in Resources */,
 			);
@@ -219,12 +291,24 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Metis/Pods-Metis-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,13 +342,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D4FB621FB903CE0098F8B6 /* ProfileVC.swift in Sources */,
+				51D4FB841FB964300098F8B6 /* ContactsManager.swift in Sources */,
+				51D4FB791FB95DAE0098F8B6 /* ChatListVC.swift in Sources */,
 				51D4FB601FB903C00098F8B6 /* ChatVC.swift in Sources */,
 				51D4FB6B1FB9222D0098F8B6 /* OnboardingCell.swift in Sources */,
 				51D4FB4E1FB8FDF70098F8B6 /* PostVC.swift in Sources */,
 				51D4FB641FB904020098F8B6 /* WelcomeVC.swift in Sources */,
+				51D4FB771FB95D040098F8B6 /* Conversation.swift in Sources */,
+				51D4FB701FB95C960098F8B6 /* User.swift in Sources */,
 				51D4FB4A1FB8FDF70098F8B6 /* AppDelegate.swift in Sources */,
+				51D4FB751FB95CF90098F8B6 /* Message.swift in Sources */,
 				51D4FB671FB915440098F8B6 /* LoopingVideoView.swift in Sources */,
+				51D4FB881FB9658C0098F8B6 /* VCCells.swift in Sources */,
 				51D4FB4C1FB8FDF70098F8B6 /* HomeVC.swift in Sources */,
+				51D4FB821FB964300098F8B6 /* Helper Files.swift in Sources */,
+				51D4FB831FB964300098F8B6 /* BadgeSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +496,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6GUQ7XNWR;
-				INFOPLIST_FILE = Metis/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Metis/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ginacdlr.Metis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -420,7 +512,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = A6GUQ7XNWR;
-				INFOPLIST_FILE = Metis/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Metis/Utilities/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ginacdlr.Metis;
 				PRODUCT_NAME = "$(TARGET_NAME)";
