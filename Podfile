@@ -8,6 +8,7 @@ target ‘Metis’ do
    pod 'Firebase/Database'
    pod 'Firebase/Storage'
    pod 'FBSDKLoginKit'
+   pod 'FBSDKCoreKit'
    pod 'SwiftKeychainWrapper', :git => 'https://github.com/jrendel/SwiftKeychainWrapper.git', :branch => 'master'
 
     

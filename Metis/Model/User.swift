@@ -12,16 +12,16 @@ import Contacts
 import Firebase
 
 class User: NSObject {
-    
+
     //MARK: Properties
     let name: String
     let number: String
     let id: String
     var profilePic: UIImage
-    
+
     //MARK: Methods
     class func registerUser(withName: String, number: String, profilePic: UIImage, completion: @escaping (Bool) -> Swift.Void) {
-        
+
         let storageRef = Storage.storage().reference().child("usersProfilePics").child((Auth.auth().currentUser?.uid)!)
         let imageData = UIImageJPEGRepresentation(profilePic, 0.1)
         storageRef.putData(imageData!, metadata: nil, completion: { (metadata, err) in
@@ -40,8 +40,8 @@ class User: NSObject {
                 })
             }
         })
-        
-        
+
+
     }
     
     
@@ -58,7 +58,7 @@ class User: NSObject {
 //            completion(false)
 //        }
 //    }
-//    
+    
     
     class func loginUser(verificationID: String, verificationCode: String, completion: @escaping (Bool) -> Swift.Void) {
         let credential = PhoneAuthProvider.provider().credential(
@@ -91,7 +91,7 @@ class User: NSObject {
             }
         })
     }
-    
+
     class func search(forPhoneNumber: String, completion: @escaping (User) -> Swift.Void) {
         Database.database().reference().child("list").child(forPhoneNumber).observeSingleEvent(of: .value, with: { (snapshot) in
             if let data = snapshot.value as? [String: Any] {
@@ -113,16 +113,16 @@ class User: NSObject {
             }
         })
     }
-    
-    
+
+
     class func isOnline(){
         Database.database().reference().child("list").child((Auth.auth().currentUser?.phoneNumber)!).child("status").setValue(true)
     }
-    
+
     class func isOffline(){
         Database.database().reference().child("list").child((Auth.auth().currentUser?.phoneNumber)!).child("status").setValue(false)
     }
-    
+
     class func observeUserStatus(number: String, completion: @escaping (Bool) -> Swift.Void) {
         Database.database().reference().child("list").child(number).child("status").queryOrderedByValue().queryEqual(toValue: true).observe(.value) { (data: DataSnapshot) in
             completion(true)
@@ -131,8 +131,8 @@ class User: NSObject {
             completion(false)
         }
     }
-    
-    
+
+
     //MARK: Inits
     init(name: String, number: String, id: String, profilePic: UIImage) {
         self.name = name
@@ -141,3 +141,4 @@ class User: NSObject {
         self.profilePic = profilePic
     }
 }
+

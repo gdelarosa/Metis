@@ -23,7 +23,7 @@ class ChatListVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     var items = [Conversation]()
     var selectedUser: User?
     
-    //MARK: Methods
+   // MARK: Methods
     func customization()  {
         self.navigationController?.interactivePopGestureRecognizer?.delegate = nil
         //NavigationBar customization
