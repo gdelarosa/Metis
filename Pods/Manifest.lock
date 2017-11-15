@@ -53,12 +53,16 @@ PODS:
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.3)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
   - GTMSessionFetcher/Core (1.1.12)
+  - KILabel (1.0.1)
   - leveldb-library (1.18.3)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
+  - SDWebImage (4.2.0):
+    - SDWebImage/Core (= 4.2.0)
+  - SDWebImage/Core (4.2.0)
   - SwiftKeychainWrapper (3.0.1)
 
 DEPENDENCIES:
@@ -68,6 +72,8 @@ DEPENDENCIES:
   - Firebase/Core
   - Firebase/Database
   - Firebase/Storage
+  - KILabel
+  - SDWebImage
   - SwiftKeychainWrapper (from `https://github.com/jrendel/SwiftKeychainWrapper.git`, branch `master`)
 
 EXTERNAL SOURCES:
@@ -93,10 +99,12 @@ SPEC CHECKSUMS:
   FirebaseStorage: 0cca42d9b889a0227c3a50121f45a4469fc9eb27
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
+  KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
   leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
   SwiftKeychainWrapper: e353c2d5ac22e72ff7c1dc3b1de1f0e7341ba030
 
-PODFILE CHECKSUM: f903f8d83e2dd2c7c5d6deb21fbd92e162bd1d7c
+PODFILE CHECKSUM: 55fcc9dd6012c6fc098d3c01e5fdc46c35ff3f40
 
 COCOAPODS: 1.3.1

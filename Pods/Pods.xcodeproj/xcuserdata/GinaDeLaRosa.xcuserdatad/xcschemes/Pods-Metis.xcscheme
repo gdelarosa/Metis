@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0910"
+   LastUpgradeVersion = "0700"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6756BA720088278BB4F7F8D9CDB78C0D"
+               BlueprintIdentifier = "7776B489A3155DA00E5C57DFC4032778"
                BuildableName = "Pods_Metis.framework"
                BlueprintName = "Pods-Metis"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6756BA720088278BB4F7F8D9CDB78C0D"
+            BlueprintIdentifier = "7776B489A3155DA00E5C57DFC4032778"
             BuildableName = "Pods_Metis.framework"
             BlueprintName = "Pods-Metis"
             ReferencedContainer = "container:Pods.xcodeproj">

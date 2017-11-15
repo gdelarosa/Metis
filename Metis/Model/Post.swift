@@ -2,70 +2,45 @@
 //  Post.swift
 //  Metis
 //
-//  Created by Gina De La Rosa on 11/12/17.
+//  Created by Gina De La Rosa on 11/15/17.
 //  Copyright © 2017 Gina Delarosa. All rights reserved.
 //
 
 import Foundation
-import Firebase
-
+import FirebaseAuth
 class Post {
-    
-    private var _caption: String!
-    private var _imageUrl: String!
-    private var _likes: Int!
-    private var _postKey: String!
-    private var _postRef: DatabaseReference!
-    
-    var caption: String {
-        return _caption
-    }
-    
-    var imageUrl: String {
-        return _imageUrl
-    }
-    
-    var likes: Int {
-        return _likes
-    }
-    
-    var postKey: String {
-        return _postKey
-    }
-    
-    init(caption: String, imageUrl: String, likes: Int) {
-        self._caption = caption
-        self._imageUrl = caption
-        self._likes = likes
-    }
-    
-    init(postKey: String, postData: Dictionary<String, AnyObject>) {
-        self._postKey = postKey
-        
-        if let caption = postData["caption"] as? String {
-            self._caption = caption
-        }
-        
-        if let imageUrl = postData["imageUrl"] as? String {
-            self._imageUrl = imageUrl
-        }
-        
-        if let likes = postData["likes"] as? Int {
-            self._likes = likes
-        }
-        
-        _postRef = DataService.ds.REF_POSTS.child(_postKey)
-        
-    }
-    
-    func adjustLikes(addLike: Bool) {
-        if addLike {
-            _likes = _likes + 1
-        } else {
-            _likes = likes - 1
-        }
-        _postRef.child("likes").setValue(_likes)
-        
-    }
+    var caption: String?
+    var photoUrl: String?
+    var uid: String?
+    var id: String?
+    var likeCount: Int?
+    var likes: Dictionary<String, Any>?
+    var isLiked: Bool?
+    var ratio: CGFloat?
+    var videoUrl: String?
+}
 
+extension Post {
+    static func transformPostPhoto(dict: [String: Any], key: String) -> Post {
+        let post = Post()
+        post.id = key
+        post.caption = dict["caption"] as? String
+        post.photoUrl = dict["photoUrl"] as? String
+        post.videoUrl = dict["videoUrl"] as? String
+        post.uid = dict["uid"] as? String
+        post.likeCount = dict["likeCount"] as? Int
+        post.likes = dict["likes"] as? Dictionary<String, Any>
+        post.ratio = dict["ratio"] as? CGFloat
+        if let currentUserId = Auth.auth().currentUser?.uid {
+            if post.likes != nil {
+                post.isLiked = post.likes![currentUserId] != nil
+            }
+        }
+      
+        return post
+    }
+    
+    static func transformPostVideo() {
+        
+    }
 }
