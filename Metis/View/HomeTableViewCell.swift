@@ -19,6 +19,7 @@ class HomeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
+    //@IBOutlet weak var goalLabel: UILabel!
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var likeImageView: UIImageView!
     @IBOutlet weak var commentImageView: UIImageView!
@@ -100,6 +101,7 @@ class HomeTableViewCell: UITableViewCell {
     
     func setupUserInfo() {
         nameLabel.text = user?.username
+        //goalLabel.text = user?.goal
         if let photoUrlString = user?.profileImageUrl {
             let photoUrl = URL(string: photoUrlString)
             profileImageView.sd_setImage(with: photoUrl, placeholderImage: UIImage(named: "placeholderImg"))
@@ -110,7 +112,9 @@ class HomeTableViewCell: UITableViewCell {
       override func awakeFromNib() {
         super.awakeFromNib()
         nameLabel.text = ""
+       // goalLabel.text = ""
         captionLabel.text = ""
+        
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.commentImageView_TouchUpInside))
         commentImageView.addGestureRecognizer(tapGesture)
         commentImageView.isUserInteractionEnabled = true
@@ -122,6 +126,10 @@ class HomeTableViewCell: UITableViewCell {
         let tapGestureForNameLabel = UITapGestureRecognizer(target: self, action: #selector(self.nameLabel_TouchUpInside))
         nameLabel.addGestureRecognizer(tapGestureForNameLabel)
         nameLabel.isUserInteractionEnabled = true
+        
+//        let tapGestureForGoalLabel = UITapGestureRecognizer(target: self, action: #selector(self.goalLabel_TouchUpInside))
+//        goalLabel.addGestureRecognizer(tapGestureForGoalLabel)
+//        goalLabel.isUserInteractionEnabled = true
     }
     
     

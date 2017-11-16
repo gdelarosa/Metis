@@ -70,6 +70,7 @@ class HeaderProfileCollectionReusableView: UICollectionReusableView {
     
     func clear() {
         self.nameLabel.text = ""
+        self.goalLabel.text = ""
         self.myPostsCountLabel.text = ""
         self.followersCountLabel.text = ""
         self.followingCountLabel.text = ""
