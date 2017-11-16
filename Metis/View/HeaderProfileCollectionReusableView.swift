@@ -23,6 +23,7 @@ class HeaderProfileCollectionReusableView: UICollectionReusableView {
     @IBOutlet weak var myPostsCountLabel: UILabel!
     @IBOutlet weak var followingCountLabel: UILabel!
     @IBOutlet weak var followersCountLabel: UILabel!
+    @IBOutlet weak var goalLabel: UILabel!
     @IBOutlet weak var followButton: UIButton!
     
     var delegate: HeaderProfileCollectionReusableViewDelegate?
@@ -40,6 +41,7 @@ class HeaderProfileCollectionReusableView: UICollectionReusableView {
     
     func updateView() {        
         self.nameLabel.text = user!.username
+        self.goalLabel.text = user!.goal
         if let photoUrlString = user!.profileImageUrl {
             let photoUrl = URL(string: photoUrlString)
             self.profileImage.sd_setImage(with: photoUrl)

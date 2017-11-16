@@ -53,7 +53,6 @@
 		516A28081FBCB5B200C60FFC /* ProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 516A28061FBCB5B200C60FFC /* ProgressHUD.m */; };
 		516A280A1FBCF6E000C60FFC /* OnboardingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516A28091FBCF6DF00C60FFC /* OnboardingCell.swift */; };
 		51D4FB4A1FB8FDF70098F8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */; };
-		51D4FB511FB8FDF70098F8B6 /* MainOld.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB4F1FB8FDF70098F8B6 /* MainOld.storyboard */; };
 		51D4FB531FB8FDF70098F8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */; };
 		51D4FB561FB8FDF70098F8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */; };
 		51D4FB5E1FB8FE450098F8B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */; };
@@ -117,7 +116,6 @@
 		516A28091FBCF6DF00C60FFC /* OnboardingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCell.swift; sourceTree = "<group>"; };
 		51D4FB461FB8FDF70098F8B6 /* Metis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51D4FB501FB8FDF70098F8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainOld.storyboard; sourceTree = "<group>"; };
 		51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D4FB551FB8FDF70098F8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D4FB571FB8FDF70098F8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,7 +168,6 @@
 				516A27F91FBCB41900C60FFC /* Main.storyboard */,
 				516A27FA1FBCB41900C60FFC /* Profile.storyboard */,
 				516A27F81FBCB41900C60FFC /* Start.storyboard */,
-				51D4FB4F1FB8FDF70098F8B6 /* MainOld.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -388,7 +385,6 @@
 				516A28011FBCB41900C60FFC /* Profile.storyboard in Resources */,
 				516A28021FBCB41900C60FFC /* Activity.storyboard in Resources */,
 				516A27FC1FBCB41900C60FFC /* Discover.storyboard in Resources */,
-				51D4FB511FB8FDF70098F8B6 /* MainOld.storyboard in Resources */,
 				516A27FF1FBCB41900C60FFC /* Start.storyboard in Resources */,
 				516A27FE1FBCB41900C60FFC /* Camera.storyboard in Resources */,
 				516A27FD1FBCB41900C60FFC /* Home.storyboard in Resources */,
@@ -520,14 +516,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		51D4FB4F1FB8FDF70098F8B6 /* MainOld.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				51D4FB501FB8FDF70098F8B6 /* Base */,
-			);
-			name = MainOld.storyboard;
-			sourceTree = "<group>";
-		};
 		51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

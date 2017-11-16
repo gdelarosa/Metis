@@ -15,6 +15,7 @@ class ProfileUserViewController: UIViewController {
     var posts: [Post] = []
     var userId = ""
     var delegate: HeaderProfileCollectionReusableViewDelegate?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         print("userId: \(userId)")

@@ -53,7 +53,7 @@ class AuthService {
         onSuccess()
     }
     
-    static func updateUserInfor(username: String, email: String, imageData: Data, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
+    static func updateUserInfor(username: String, email: String, goal: String, imageData: Data, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
         
         Api.Userr.CURRENT_USER?.updateEmail(to: email, completion: { (error) in
             if error != nil {
@@ -68,15 +68,16 @@ class AuthService {
                     }
                     let profileImageUrl = metadata?.downloadURL()?.absoluteString
                     
-                    self.updateDatabase(profileImageUrl: profileImageUrl!, username: username, email: email, onSuccess: onSuccess, onError: onError)
+                    self.updateDatabase(profileImageUrl: profileImageUrl!, username: username, email: email, goal: goal, onSuccess: onSuccess, onError: onError)
                 })
             }
         })
         
     }
     
-    static func updateDatabase(profileImageUrl: String, username: String, email: String, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
-        let dict = ["username": username, "username_lowercase": username.lowercased(), "email": email, "profileImageUrl": profileImageUrl]
+    static func updateDatabase(profileImageUrl: String, username: String, email: String, goal: String, onSuccess: @escaping () -> Void, onError:  @escaping (_ errorMessage: String?) -> Void) {
+        let dict = ["username": username, "username_lowercase": username.lowercased(), "email": email, "goal": goal,
+                    "profileImageUrl": profileImageUrl]
         Api.Userr.REF_CURRENT_USER?.updateChildValues(dict, withCompletionBlock: { (error, ref) in
             if error != nil {
                 onError(error!.localizedDescription)

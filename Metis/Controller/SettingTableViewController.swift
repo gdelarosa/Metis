@@ -17,6 +17,7 @@ class SettingTableViewController: UITableViewController {
     @IBOutlet weak var usernnameTextField: UITextField!
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var profileImageView: UIImageView!
+    @IBOutlet weak var goalTextField: UITextField!
     
     var delegate: SettingTableViewControllerDelegate?
     
@@ -25,6 +26,7 @@ class SettingTableViewController: UITableViewController {
         navigationItem.title = "Edit Profile"
         usernnameTextField.delegate = self
         emailTextField.delegate = self
+        goalTextField.delegate = self
         fetchCurrentUser()
     }
     
@@ -32,6 +34,7 @@ class SettingTableViewController: UITableViewController {
         Api.Userr.observeCurrentUser { (userr) in
             self.usernnameTextField.text = userr.username
             self.emailTextField.text = userr.email
+            self.goalTextField.text = userr.goal
             if let profileUrl = URL(string: userr.profileImageUrl!) {
                 self.profileImageView.sd_setImage(with: profileUrl)
             }
@@ -40,7 +43,8 @@ class SettingTableViewController: UITableViewController {
     @IBAction func saveBtn_TouchUpInside(_ sender: Any) {
         if let profileImg = self.profileImageView.image, let imageData = UIImageJPEGRepresentation(profileImg, 0.1) {
             ProgressHUD.show("Waiting...")
-            AuthService.updateUserInfor(username: usernnameTextField.text!, email: emailTextField.text!, imageData: imageData, onSuccess: { 
+            AuthService.updateUserInfor(username: usernnameTextField.text!, email: emailTextField.text!,
+                goal:goalTextField.text!, imageData: imageData, onSuccess: {
                 ProgressHUD.showSuccess("Success")
                 self.delegate?.updateUserInfor()
             }, onError: { (errorMessage) in

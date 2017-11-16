@@ -13,6 +13,7 @@ class Userr {
     var username: String?
     var id: String?
     var isFollowing: Bool?
+    var goal: String?
 }
 
 extension Userr {
@@ -22,6 +23,7 @@ extension Userr {
         user.profileImageUrl = dict["profileImageUrl"] as? String
         user.username = dict["username"] as? String
         user.id = key
+        user.goal = dict["goal"] as? String
         return user
     }
 }
