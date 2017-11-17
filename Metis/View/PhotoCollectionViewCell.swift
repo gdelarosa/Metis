@@ -13,6 +13,7 @@ protocol PhotoCollectionViewCellDelegate {
 }
 
 class PhotoCollectionViewCell: UICollectionViewCell {
+    
     @IBOutlet weak var photo: UIImageView!
     
     var delegate: PhotoCollectionViewCellDelegate?

@@ -9,6 +9,5 @@
 import Foundation
 struct Config {
     static var STORAGE_ROOF_REF = "gs://metis-55f5f.appspot.com"
-    //"https://metis-55f5f.firebaseio.com"
-    //gs://instagramclone-fc544.appspot.com
+    
 }

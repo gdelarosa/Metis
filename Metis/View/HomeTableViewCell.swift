@@ -94,7 +94,7 @@ class HomeTableViewCell: UITableViewCell {
         if count != 0 {
             likeCountButton.setTitle("\(count) likes", for: UIControlState.normal)
         } else {
-            likeCountButton.setTitle("Be the first like this", for: UIControlState.normal)
+            likeCountButton.setTitle("Be the first support this", for: UIControlState.normal)
         }
        
     }
@@ -126,10 +126,7 @@ class HomeTableViewCell: UITableViewCell {
         let tapGestureForNameLabel = UITapGestureRecognizer(target: self, action: #selector(self.nameLabel_TouchUpInside))
         nameLabel.addGestureRecognizer(tapGestureForNameLabel)
         nameLabel.isUserInteractionEnabled = true
-        
-//        let tapGestureForGoalLabel = UITapGestureRecognizer(target: self, action: #selector(self.goalLabel_TouchUpInside))
-//        goalLabel.addGestureRecognizer(tapGestureForGoalLabel)
-//        goalLabel.isUserInteractionEnabled = true
+
     }
     
     
@@ -161,7 +158,7 @@ class HomeTableViewCell: UITableViewCell {
 
     override func prepareForReuse() {
         super.prepareForReuse()
-        print("11111")
+        print("Reusing cell")
         profileImageView.image = UIImage(named: "placeholderImg")
         playerLayer?.removeFromSuperlayer()
         player?.pause()

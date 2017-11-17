@@ -10,18 +10,27 @@ import UIKit
 import AVFoundation
 
 class CameraViewController: UIViewController {
+    
     @IBOutlet weak var photo: UIImageView!
     @IBOutlet weak var captionTextView: UITextView!
     @IBOutlet weak var removeButton: UIBarButtonItem!
     @IBOutlet weak var shareButton: UIButton!
+    
     var selectedImage: UIImage?
     var videoUrl: URL?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(self.handleSelectPhoto))
         photo.addGestureRecognizer(tapGesture)
         photo.isUserInteractionEnabled = true
+        
+        let aTabArray: [UITabBarItem] = (self.tabBarController?.tabBar.items)!
+        for item in aTabArray {
+            item.image = item.image?.withRenderingMode(UIImageRenderingMode.alwaysOriginal)
+            item.imageInsets = UIEdgeInsetsMake(7, 0, -7, 0)
+        }
         
     }
     

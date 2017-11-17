@@ -37,34 +37,44 @@
                                         </constraints>
                                     </imageView>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="e3I-DW-326">
-                                        <rect key="frame" x="8" y="227" width="319" height="201"/>
+                                        <rect key="frame" x="8" y="242" width="319" height="206"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add your update below" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t0z-E9-cnA">
+                                        <rect key="frame" x="8" y="227" width="225" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="225" id="0y3-gS-P7q"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="15"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="e3I-DW-326" secondAttribute="bottom" constant="28" id="7AR-ZO-GKc"/>
-                                    <constraint firstItem="e3I-DW-326" firstAttribute="top" secondItem="6hs-wE-rgv" secondAttribute="top" constant="227" id="H5I-9E-Lrp"/>
+                                    <constraint firstAttribute="bottom" secondItem="e3I-DW-326" secondAttribute="bottom" constant="8" id="7AR-ZO-GKc"/>
+                                    <constraint firstItem="e3I-DW-326" firstAttribute="top" secondItem="6hs-wE-rgv" secondAttribute="top" constant="242" id="H5I-9E-Lrp"/>
+                                    <constraint firstItem="t0z-E9-cnA" firstAttribute="leading" secondItem="e3I-DW-326" secondAttribute="leading" id="JxO-aC-maU"/>
                                     <constraint firstAttribute="trailing" secondItem="e3I-DW-326" secondAttribute="trailing" constant="8" id="Lfh-2S-uN9"/>
                                     <constraint firstItem="HZJ-6L-E0e" firstAttribute="trailing" secondItem="e3I-DW-326" secondAttribute="trailing" id="Srn-Lq-Rpf"/>
                                     <constraint firstAttribute="height" constant="456" id="cfu-Vt-QcV"/>
                                     <constraint firstItem="HZJ-6L-E0e" firstAttribute="leading" secondItem="6hs-wE-rgv" secondAttribute="leadingMargin" id="cmE-qw-FQN"/>
-                                    <constraint firstItem="e3I-DW-326" firstAttribute="top" secondItem="HZJ-6L-E0e" secondAttribute="bottom" constant="8" symbolic="YES" id="gnD-SF-ujh"/>
+                                    <constraint firstItem="e3I-DW-326" firstAttribute="top" secondItem="HZJ-6L-E0e" secondAttribute="bottom" constant="23" id="gnD-SF-ujh"/>
                                     <constraint firstItem="HZJ-6L-E0e" firstAttribute="top" secondItem="6hs-wE-rgv" secondAttribute="top" constant="10" id="h4P-ux-ZIa"/>
                                     <constraint firstItem="HZJ-6L-E0e" firstAttribute="trailing" secondItem="6hs-wE-rgv" secondAttribute="trailingMargin" id="o50-Ti-I7b"/>
                                     <constraint firstItem="HZJ-6L-E0e" firstAttribute="leading" secondItem="e3I-DW-326" secondAttribute="leading" id="p2O-9W-w0j"/>
+                                    <constraint firstItem="t0z-E9-cnA" firstAttribute="top" secondItem="HZJ-6L-E0e" secondAttribute="bottom" constant="8" symbolic="YES" id="xSD-PM-IG4"/>
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHO-DK-mjg">
                                 <rect key="frame" x="101" y="560" width="172" height="50"/>
-                                <color key="backgroundColor" red="0.0" green="0.2345659292" blue="0.48899147729999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="lt8-89-FiX"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
-                                <state key="normal" title="Share your update">
+                                <state key="normal" title="Share your update" backgroundImage="PurpleBack">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -237,7 +247,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Photo" width="22" height="23"/>
+        <image name="Photo" width="25" height="25"/>
+        <image name="PurpleBack" width="1024" height="1024"/>
         <image name="placeholder-photo" width="840" height="600"/>
     </resources>
 </document>

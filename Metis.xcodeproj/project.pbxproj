@@ -56,7 +56,6 @@
 		51D4FB531FB8FDF70098F8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */; };
 		51D4FB561FB8FDF70098F8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */; };
 		51D4FB5E1FB8FE450098F8B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */; };
-		51D4FB641FB904020098F8B6 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB631FB904020098F8B6 /* WelcomeVC.swift */; };
 		51D4FB671FB915440098F8B6 /* LoopingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */; };
 		51D4FB6D1FB92C940098F8B6 /* rainbow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */; };
 		51D4FB8B1FB967AB0098F8B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */; };
@@ -120,7 +119,6 @@
 		51D4FB551FB8FDF70098F8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51D4FB571FB8FDF70098F8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		51D4FB631FB904020098F8B6 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
 		51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingVideoView.swift; sourceTree = "<group>"; };
 		51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainbow.mp4; sourceTree = "<group>"; };
 		51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
@@ -227,7 +225,6 @@
 		51D4FB711FB95C990098F8B6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				51D4FB631FB904020098F8B6 /* WelcomeVC.swift */,
 				516A27E31FBCB3D200C60FFC /* ActivityViewController.swift */,
 				516A27D91FBCB3D100C60FFC /* CameraViewController.swift */,
 				516A27E01FBCB3D200C60FFC /* CommentViewController.swift */,
@@ -422,6 +419,7 @@
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/KILabel/KILabel.framework",
+				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
@@ -435,6 +433,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KILabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftKeychainWrapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
@@ -475,7 +474,6 @@
 				516A27F01FBCB3D300C60FFC /* ProfileUserViewController.swift in Sources */,
 				516A27F21FBCB3D300C60FFC /* HomeViewController.swift in Sources */,
 				516A27CD1FBCB36900C60FFC /* HeaderProfileCollectionReusableView.swift in Sources */,
-				51D4FB641FB904020098F8B6 /* WelcomeVC.swift in Sources */,
 				516A27B01FBCB17D00C60FFC /* HelperService.swift in Sources */,
 				516A27C01FBCB25A00C60FFC /* CommentApi.swift in Sources */,
 				516A27EB1FBCB3D300C60FFC /* PeopleViewController.swift in Sources */,

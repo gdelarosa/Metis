@@ -96,8 +96,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="265-Mg-Oly">
                                 <rect key="frame" x="20" y="542" width="335" height="44"/>
                                 <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Sign In">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Sign In" backgroundImage="PurpleBack">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="signInButton_TouchUpInside:" destination="097-w8-9Hf" eventType="touchUpInside" id="d4y-Mg-ryF"/>
@@ -224,8 +224,8 @@
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="fgc-Ti-06i"/>
                                         </constraints>
-                                        <state key="normal" title="Sign Up">
-                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <state key="normal" title="Sign Up" backgroundImage="PurpleBack">
+                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
                                             <action selector="signUpBtn_TouchUpInside:" destination="VTE-tb-V8W" eventType="touchUpInside" id="ERk-Q3-dWl"/>
@@ -290,6 +290,7 @@
     </scenes>
     <resources>
         <image name="FACEBOOK" width="233" height="57"/>
+        <image name="PurpleBack" width="1024" height="1024"/>
         <image name="Slide1" width="373" height="384"/>
         <image name="placeholderImg" width="225" height="225"/>
     </resources>
