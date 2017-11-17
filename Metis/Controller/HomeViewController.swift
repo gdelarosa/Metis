@@ -14,12 +14,18 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
     var posts = [Post]()
     var users = [Userr]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.estimatedRowHeight = 521
         tableView.rowHeight = UITableViewAutomaticDimension
         tableView.dataSource = self
         loadPosts()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated);
+        self.navigationController?.isNavigationBarHidden = true
     }
     
     func loadPosts() {

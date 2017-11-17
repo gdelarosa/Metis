@@ -220,12 +220,12 @@
                                     </textField>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AAe-I9-EGi">
                                         <rect key="frame" x="0.0" y="150" width="335" height="44"/>
-                                        <color key="backgroundColor" red="0.064956501080000006" green="0.092213887829999994" blue="0.1761025433" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="44" id="fgc-Ti-06i"/>
                                         </constraints>
                                         <state key="normal" title="Sign Up">
-                                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="signUpBtn_TouchUpInside:" destination="VTE-tb-V8W" eventType="touchUpInside" id="ERk-Q3-dWl"/>
@@ -253,7 +253,7 @@
                                 </constraints>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="VGC-TB-dJi" firstAttribute="centerX" secondItem="qoP-KS-OIZ" secondAttribute="centerX" id="9ph-Iw-ydH"/>
                             <constraint firstItem="VGC-TB-dJi" firstAttribute="leading" secondItem="qoP-KS-OIZ" secondAttribute="leading" constant="20" id="AAI-ja-yPk"/>
@@ -294,6 +294,6 @@
         <image name="placeholderImg" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="67q-py-SuJ"/>
+        <segue reference="JRp-rs-fkO"/>
     </inferredMetricsTieBreakers>
 </document>

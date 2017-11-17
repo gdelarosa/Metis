@@ -36,7 +36,7 @@ class CameraViewController: UIViewController {
            self.removeButton.isEnabled = true
             self.shareButton.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 1)
         } else {
-           self.shareButton.isEnabled = false
+           //self.shareButton.isEnabled = true
             self.removeButton.isEnabled = false
             self.shareButton.backgroundColor = .lightGray
 
@@ -64,7 +64,7 @@ class CameraViewController: UIViewController {
         })
         
         } else {
-            ProgressHUD.showError("Profile Image can't be empty")
+           ProgressHUD.showError("Error with image uploading")
         }
     }
     @IBAction func remove_TouchUpInside(_ sender: Any) {
@@ -105,7 +105,7 @@ extension CameraViewController: UIImagePickerControllerDelegate, UINavigationCon
             selectedImage = image
             photo.image = image
             dismiss(animated: true, completion: { 
-                self.performSegue(withIdentifier: "filter_segue", sender: nil)
+//                self.performSegue(withIdentifier: "filter_segue", sender: nil)
             })
         }
     }

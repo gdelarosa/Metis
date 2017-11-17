@@ -9,6 +9,7 @@
 import Foundation
 import FirebaseStorage
 class HelperService {
+    
     static func uploadDataToServer(data: Data, videoUrl: URL? = nil, ratio: CGFloat, caption: String, onSuccess: @escaping () -> Void) {
         if let videoUrl = videoUrl {
             self.uploadVideoToFirebaseStorage(videoUrl: videoUrl, onSuccess: { (videoUrl) in

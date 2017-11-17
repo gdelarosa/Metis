@@ -19,7 +19,7 @@ class HomeTableViewCell: UITableViewCell {
 
     @IBOutlet weak var profileImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
-    //@IBOutlet weak var goalLabel: UILabel!
+    @IBOutlet weak var goalLabel: UILabel!
     @IBOutlet weak var postImageView: UIImageView!
     @IBOutlet weak var likeImageView: UIImageView!
     @IBOutlet weak var commentImageView: UIImageView!
@@ -101,7 +101,7 @@ class HomeTableViewCell: UITableViewCell {
     
     func setupUserInfo() {
         nameLabel.text = user?.username
-        //goalLabel.text = user?.goal
+        goalLabel.text = user?.goal
         if let photoUrlString = user?.profileImageUrl {
             let photoUrl = URL(string: photoUrlString)
             profileImageView.sd_setImage(with: photoUrl, placeholderImage: UIImage(named: "placeholderImg"))
