@@ -79,6 +79,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omu-5n-tg5" userLabel="FBlogin">
                                 <rect key="frame" x="71" y="353" width="233" height="57"/>
                                 <state key="normal" image="FACEBOOK"/>
+                                <connections>
+                                    <action selector="facebookLoginWithSender:" destination="097-w8-9Hf" eventType="touchUpInside" id="czc-2R-y1R"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFT-Jw-Wy3">
                                 <rect key="frame" x="0.0" y="623" width="375" height="44"/>
@@ -295,6 +298,6 @@
         <image name="placeholderImg" width="225" height="225"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="JRp-rs-fkO"/>
+        <segue reference="67q-py-SuJ"/>
     </inferredMetricsTieBreakers>
 </document>
