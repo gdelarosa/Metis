@@ -87,6 +87,7 @@ extension HomeViewController: UITableViewDataSource {
         cell.delegate = self
         return cell
     }
+    
 }
 
 extension HomeViewController: HomeTableViewCellDelegate {

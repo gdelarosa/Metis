@@ -11,5 +11,6 @@ target ‘Metis’ do
    pod 'FBSDKCoreKit'
    pod 'SDWebImage'
    pod 'KILabel'
+   pod 'GradientProgressBar', '~> 1.0'
     
 end

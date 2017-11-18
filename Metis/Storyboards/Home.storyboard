@@ -67,6 +67,12 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-Ao-6LM">
+                                                    <rect key="frame" x="54" y="127" width="286" height="235"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="235" id="j6G-gN-BCb"/>
+                                                    </constraints>
+                                                </imageView>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="like" translatesAutoresizingMaskIntoConstraints="NO" id="vMY-aN-Ui7">
                                                     <rect key="frame" x="13" y="67" width="22" height="22"/>
                                                     <constraints>
@@ -95,7 +101,7 @@
                                                     <rect key="frame" x="13" y="157" width="24" height="22"/>
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oxl-hb-zbb">
-                                                            <rect key="frame" x="6" y="5.5" width="12" height="12"/>
+                                                            <rect key="frame" x="6" y="5" width="12" height="12"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="12" id="hkf-aD-p06"/>
                                                             </constraints>
@@ -130,10 +136,10 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JAf-Ao-6LM">
-                                                    <rect key="frame" x="54" y="127" width="286" height="235"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="PurpleBack" translatesAutoresizingMaskIntoConstraints="NO" id="Y9D-mR-U7d">
+                                                    <rect key="frame" x="28" y="436" width="319" height="3"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="235" id="j6G-gN-BCb"/>
+                                                        <constraint firstAttribute="height" constant="3" id="OAv-ds-xuH"/>
                                                     </constraints>
                                                 </imageView>
                                             </subviews>
@@ -151,16 +157,19 @@
                                                 <constraint firstItem="fEI-ug-Ldb" firstAttribute="top" secondItem="5Bk-lh-6ZQ" secondAttribute="top" id="Frv-qp-S73"/>
                                                 <constraint firstItem="8HR-Am-BIT" firstAttribute="top" secondItem="7uj-fO-jwZ" secondAttribute="bottom" constant="-236" id="ITL-0Y-1vC"/>
                                                 <constraint firstItem="JAf-Ao-6LM" firstAttribute="leading" secondItem="vMY-aN-Ui7" secondAttribute="trailing" constant="19" id="IyE-Oy-VCU"/>
+                                                <constraint firstItem="Y9D-mR-U7d" firstAttribute="leading" secondItem="2Rz-KO-OMQ" secondAttribute="leadingMargin" constant="12" id="J7m-ud-623"/>
                                                 <constraint firstItem="fEI-ug-Ldb" firstAttribute="leading" secondItem="2Rz-KO-OMQ" secondAttribute="leading" constant="55" id="KtC-n6-Ard"/>
                                                 <constraint firstItem="5Bk-lh-6ZQ" firstAttribute="leading" secondItem="2Rz-KO-OMQ" secondAttribute="leadingMargin" constant="-8" id="M2f-Lt-SVj"/>
                                                 <constraint firstItem="vMY-aN-Ui7" firstAttribute="leading" secondItem="X5F-xv-STt" secondAttribute="leading" id="N17-O5-j3O"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="8HR-Am-BIT" secondAttribute="bottom" constant="320" id="NTf-hb-Bat"/>
                                                 <constraint firstItem="INs-S7-Vr3" firstAttribute="top" secondItem="fEI-ug-Ldb" secondAttribute="bottom" constant="4" id="OAj-8d-eGM"/>
+                                                <constraint firstItem="Y9D-mR-U7d" firstAttribute="centerX" secondItem="2Rz-KO-OMQ" secondAttribute="centerX" id="QOn-ja-aUF"/>
                                                 <constraint firstItem="YPi-Uv-RhE" firstAttribute="top" secondItem="X5F-xv-STt" secondAttribute="bottom" constant="8" symbolic="YES" id="QQn-Pl-15n"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="8HR-Am-BIT" secondAttribute="trailing" id="RAh-3X-dfn"/>
                                                 <constraint firstItem="INs-S7-Vr3" firstAttribute="leading" secondItem="JAf-Ao-6LM" secondAttribute="leading" constant="1" id="T6S-5Z-VUX"/>
                                                 <constraint firstItem="X5F-xv-STt" firstAttribute="top" secondItem="vMY-aN-Ui7" secondAttribute="bottom" constant="8" symbolic="YES" id="Ukv-h9-udv"/>
                                                 <constraint firstItem="5Bk-lh-6ZQ" firstAttribute="leading" secondItem="7uj-fO-jwZ" secondAttribute="leading" id="aEV-hp-pNB"/>
+                                                <constraint firstItem="Y9D-mR-U7d" firstAttribute="bottom" secondItem="2Rz-KO-OMQ" secondAttribute="bottomMargin" id="cHl-xP-71w"/>
                                                 <constraint firstItem="YPi-Uv-RhE" firstAttribute="leading" secondItem="UZ5-nc-mjO" secondAttribute="leading" id="dmC-SY-gWK"/>
                                                 <constraint firstItem="X5F-xv-STt" firstAttribute="trailing" secondItem="YPi-Uv-RhE" secondAttribute="trailing" id="dr4-3C-fwj"/>
                                                 <constraint firstAttribute="trailingMargin" secondItem="JAf-Ao-6LM" secondAttribute="trailing" constant="20" id="fms-M1-SO0"/>
@@ -309,7 +318,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EVf-8S-Z8u">
                                 <rect key="frame" x="0.0" y="617" width="375" height="50"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Comment" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0o0-rm-Ak5">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Say something nice or supportive!" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0o0-rm-Ak5">
                                         <rect key="frame" x="8" y="8" width="317" height="34"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -370,7 +379,7 @@
         <scene sceneID="NA5-Al-Kln">
             <objects>
                 <navigationController storyboardIdentifier="NavigationHome" automaticallyAdjustsScrollViewInsets="NO" id="cEK-gf-Stg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="Home!" selectedImage="Home_Selected" id="TVN-Hu-R2C">
+                    <tabBarItem key="tabBarItem" title="" image="HomeSelected" selectedImage="Home!" id="TVN-Hu-R2C">
                         <inset key="imageInsets" minX="0.0" minY="5" maxX="0.0" maxY="-5"/>
                         <color key="badgeColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBarItem>
@@ -393,8 +402,9 @@
     <resources>
         <image name="Comment" width="25" height="25"/>
         <image name="Home!" width="25" height="25"/>
-        <image name="Home_Selected" width="21" height="23"/>
+        <image name="HomeSelected" width="25" height="25"/>
         <image name="Icon_Mute" width="25" height="25"/>
+        <image name="PurpleBack" width="1024" height="1024"/>
         <image name="like" width="25" height="25"/>
         <image name="share" width="37" height="41"/>
     </resources>
