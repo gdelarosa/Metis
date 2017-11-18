@@ -5,40 +5,38 @@ PODS:
   - Bolts/AppLinks (1.8.4):
     - Bolts/Tasks
   - Bolts/Tasks (1.8.4)
-  - DSGradientProgressView (1.0.0)
-  - FBSDKCoreKit (4.27.1):
+  - FBSDKCoreKit (4.28.0):
     - Bolts (~> 1.7)
-  - FBSDKLoginKit (4.27.1):
+  - FBSDKLoginKit (4.28.0):
     - FBSDKCoreKit
-  - Firebase/Auth (4.4.0):
+  - Firebase/Auth (4.6.0):
     - Firebase/Core
-    - FirebaseAuth (= 4.3.0)
-  - Firebase/Core (4.4.0):
-    - FirebaseAnalytics (= 4.0.4)
-    - FirebaseCore (= 4.0.9)
-  - Firebase/Database (4.4.0):
+    - FirebaseAuth (= 4.3.2)
+  - Firebase/Core (4.6.0):
+    - FirebaseAnalytics (= 4.0.5)
+    - FirebaseCore (= 4.0.11)
+  - Firebase/Database (4.6.0):
     - Firebase/Core
     - FirebaseDatabase (= 4.1.1)
-  - Firebase/Storage (4.4.0):
+  - Firebase/Storage (4.6.0):
     - Firebase/Core
     - FirebaseStorage (= 2.0.2)
-  - FirebaseAnalytics (4.0.4):
+  - FirebaseAnalytics (4.0.5):
     - FirebaseCore (~> 4.0)
     - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
     - nanopb (~> 0.3)
-  - FirebaseAuth (4.3.0):
+  - FirebaseAuth (4.3.2):
     - FirebaseAnalytics (~> 4.0)
     - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseCore (4.0.9):
+  - FirebaseCore (4.0.11):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-    - nanopb (~> 0.3)
   - FirebaseDatabase (4.1.1):
     - FirebaseAnalytics (~> 4.0)
     - FirebaseCore (~> 4.0)
     - leveldb-library (~> 1.18)
-  - FirebaseInstanceID (2.0.5)
+  - FirebaseInstanceID (2.0.6)
   - FirebaseStorage (2.0.2):
     - FirebaseAnalytics (~> 4.0)
     - FirebaseCore (~> 4.0)
@@ -55,19 +53,17 @@ PODS:
   - GoogleToolboxForMac/NSString+URLArguments (2.1.3)
   - GTMSessionFetcher/Core (1.1.12)
   - KILabel (1.0.1)
-  - leveldb-library (1.18.3)
+  - leveldb-library (1.20)
   - nanopb (0.3.8):
     - nanopb/decode (= 0.3.8)
     - nanopb/encode (= 0.3.8)
   - nanopb/decode (0.3.8)
   - nanopb/encode (0.3.8)
-  - SDWebImage (4.2.0):
-    - SDWebImage/Core (= 4.2.0)
-  - SDWebImage/Core (4.2.0)
-  - SwiftKeychainWrapper (3.0.1)
+  - SDWebImage (4.2.2):
+    - SDWebImage/Core (= 4.2.2)
+  - SDWebImage/Core (4.2.2)
 
 DEPENDENCIES:
-  - DSGradientProgressView
   - FBSDKCoreKit
   - FBSDKLoginKit
   - Firebase/Auth
@@ -76,38 +72,25 @@ DEPENDENCIES:
   - Firebase/Storage
   - KILabel
   - SDWebImage
-  - SwiftKeychainWrapper (from `https://github.com/jrendel/SwiftKeychainWrapper.git`, branch `master`)
-
-EXTERNAL SOURCES:
-  SwiftKeychainWrapper:
-    :branch: master
-    :git: https://github.com/jrendel/SwiftKeychainWrapper.git
-
-CHECKOUT OPTIONS:
-  SwiftKeychainWrapper:
-    :commit: 46e5980ee7630be015aae6a6307c2fe1e8f3661d
-    :git: https://github.com/jrendel/SwiftKeychainWrapper.git
 
 SPEC CHECKSUMS:
   Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
-  DSGradientProgressView: b591b4dfc6a7491fbd1f8dedee7a6ce02b23640f
-  FBSDKCoreKit: 03365dad5d790249196ffad8be4f6d8a2d98f932
-  FBSDKLoginKit: 66ff53b73cffd967ab773e32fac39e90a60e6d46
-  Firebase: 3e92884a63e8f76d107c43a67d2ab9071e1eda10
-  FirebaseAnalytics: 722b53c7b32bfc7806b06e0093a2f5180d4f2c5a
-  FirebaseAuth: e0087d479709b20b9613b804704a928d6eafb052
-  FirebaseCore: ebe73f64302705e693b1de9919a76edbdd17a19d
+  FBSDKCoreKit: ca961e279113f691fd83dc634c0bbad9d4e3f370
+  FBSDKLoginKit: b077381c27d800f21661757e8140cf2c80a91e4a
+  Firebase: 27321a925aa85520618255a7c630859e0502ccbd
+  FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
+  FirebaseAuth: e58563adb207a43910a2ed87fecb9fa7d556df5a
+  FirebaseCore: 2a946ece8fbe3ce1fdeeb55324f273caade22df9
   FirebaseDatabase: 2e6e8e110b93b9a6e7aac71774c769a363035cb1
-  FirebaseInstanceID: f2b688c66b972f30d7fa9f5f9f91455454a03b47
+  FirebaseInstanceID: 24958382a1011bba5aaff37e334e7a650b9118f5
   FirebaseStorage: 0cca42d9b889a0227c3a50121f45a4469fc9eb27
   GoogleToolboxForMac: 2501e2ad72a52eb3dfe7bd9aee7dad11b858bd20
   GTMSessionFetcher: ebaa1f79a5366922c1735f1566901f50beba23b7
   KILabel: 4797807cdc0b4992dad8bf91175ddc973c3b569b
-  leveldb-library: 10fb39c39e243db4af1828441162405bbcec1404
+  leveldb-library: 4f9eedf84ab46b4fa3b7893bf30714b2a1a74022
   nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
-  SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
-  SwiftKeychainWrapper: e353c2d5ac22e72ff7c1dc3b1de1f0e7341ba030
+  SDWebImage: 89a9d32cd520bbb46eb14e541d5109b3564af198
 
-PODFILE CHECKSUM: 80f41401aa68afe703d76d1b35898e795d8044d3
+PODFILE CHECKSUM: 6b4b79b8a49149888fe881d3fee116b7a5af77df
 
 COCOAPODS: 1.3.1
