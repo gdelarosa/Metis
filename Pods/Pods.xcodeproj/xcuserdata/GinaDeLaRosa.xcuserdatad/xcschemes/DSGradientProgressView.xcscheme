@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '3EDFE4052B5DE7D509935AC0774CB135'
-               BlueprintName = 'NVActivityIndicatorView'
+               BlueprintIdentifier = 'F13DA0F262786773717D90E9B6402B87'
+               BlueprintName = 'DSGradientProgressView'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'NVActivityIndicatorView.framework'>
+               BuildableName = 'DSGradientProgressView.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

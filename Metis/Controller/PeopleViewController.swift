@@ -12,6 +12,7 @@ class PeopleViewController: UIViewController {
 
     @IBOutlet weak var tableView: UITableView!
     var users: [Userr] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "People"

@@ -12,7 +12,8 @@ target ‘Metis’ do
    pod 'SDWebImage'
    pod 'KILabel'
    pod 'SwiftKeychainWrapper', :git => 'https://github.com/jrendel/SwiftKeychainWrapper.git', :branch => 'master'
-   pod 'NVActivityIndicatorView'
+   pod 'DSGradientProgressView'
+   
 
     
 end

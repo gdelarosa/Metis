@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '9A09A5FEC39C142428252D977B023D62'
+               BlueprintIdentifier = '1FFA7C2959706D053E68EEFD5CF65CC2'
                BlueprintName = 'Pods-Metis'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-Metis.framework'>

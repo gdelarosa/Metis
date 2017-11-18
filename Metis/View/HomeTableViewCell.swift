@@ -50,7 +50,7 @@ class HomeTableViewCell: UITableViewCell {
     func updateView() {
         captionLabel.text = post?.caption
         if let ratio = post?.ratio {
-            heightConstraintPhoto.constant = UIScreen.main.bounds.width / ratio
+            //heightConstraintPhoto.constant = UIScreen.main.bounds.width / ratio
             layoutIfNeeded()
 
         }

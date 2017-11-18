@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "DSGradientProgressView.h"
 
-FOUNDATION_EXPORT double NVActivityIndicatorViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char NVActivityIndicatorViewVersionString[];
+FOUNDATION_EXPORT double DSGradientProgressViewVersionNumber;
+FOUNDATION_EXPORT const unsigned char DSGradientProgressViewVersionString[];
 
