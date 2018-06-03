@@ -34,7 +34,6 @@ class FilterViewController: UIViewController {
         super.viewDidLoad()
         filterPhoto.image = selectedImage
         filterPhoto.contentMode = .scaleAspectFill
-        // Do any additional setup after loading the view.
     }
     @IBAction func cancelBtn_TouchUpInside(_ sender: Any) {
         dismiss(animated: true, completion: nil)

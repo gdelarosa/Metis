@@ -55,7 +55,6 @@
 		51D4FB4A1FB8FDF70098F8B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */; };
 		51D4FB531FB8FDF70098F8B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */; };
 		51D4FB561FB8FDF70098F8B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */; };
-		51D4FB5E1FB8FE450098F8B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */; };
 		51D4FB671FB915440098F8B6 /* LoopingVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */; };
 		51D4FB6D1FB92C940098F8B6 /* rainbow.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */; };
 		51D4FB8B1FB967AB0098F8B6 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */; };
@@ -117,8 +116,6 @@
 		51D4FB491FB8FDF70098F8B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51D4FB551FB8FDF70098F8B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		51D4FB571FB8FDF70098F8B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		51D4FB661FB915440098F8B6 /* LoopingVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoopingVideoView.swift; sourceTree = "<group>"; };
 		51D4FB6C1FB92C010098F8B6 /* rainbow.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rainbow.mp4; sourceTree = "<group>"; };
 		51D4FB891FB967AB0098F8B6 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = "../FacebookSDKs-iOS-4.28.0/FBSDKCoreKit.framework"; sourceTree = "<group>"; };
@@ -253,8 +250,6 @@
 				51D4FB521FB8FDF70098F8B6 /* Assets.xcassets */,
 				51D4FB651FB915360098F8B6 /* LoopingVideo */,
 				51D4FB541FB8FDF70098F8B6 /* LaunchScreen.storyboard */,
-				51D4FB571FB8FDF70098F8B6 /* Info.plist */,
-				51D4FB5D1FB8FE450098F8B6 /* GoogleService-Info.plist */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -374,7 +369,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				51D4FB561FB8FDF70098F8B6 /* LaunchScreen.storyboard in Resources */,
-				51D4FB5E1FB8FE450098F8B6 /* GoogleService-Info.plist in Resources */,
 				51D4FB531FB8FDF70098F8B6 /* Assets.xcassets in Resources */,
 				516A28071FBCB5B200C60FFC /* ProgressHUD.bundle in Resources */,
 				51D4FB6D1FB92C940098F8B6 /* rainbow.mp4 in Resources */,

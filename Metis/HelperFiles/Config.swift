@@ -8,6 +8,6 @@
 
 import Foundation
 struct Config {
-    static var STORAGE_ROOF_REF = "gs://metis-55f5f.appspot.com"
+    static var STORAGE_ROOF_REF = "Insert from firebase"
     
 }

@@ -17,7 +17,6 @@ class HelperService {
                     sendDataToDatabase(photoUrl: thumbnailImageUrl, videoUrl: videoUrl, ratio: ratio, caption: caption, onSuccess: onSuccess)
                 })
             })
-            //self.senddatatodatabase
         } else {
             uploadImageToFirebaseStorage(data: data) { (photoUrl) in
                 self.sendDataToDatabase(photoUrl: photoUrl, ratio: ratio, caption: caption, onSuccess: onSuccess)
@@ -69,9 +68,6 @@ class HelperService {
                 word = word.trimmingCharacters(in: CharacterSet.symbols)
                 let newHashReference = Api.HashTag.REF_HASHTAG.child(word.lowercased())
                 newHashReference.setValue([newPostId: true])
-//                let hashTagsRef = DataService.dataService.BASE_REF.child("hashTags").child(postKey)
-//                let data = ["to": "", "by": "\(DataService.dataService.currentUserId!)", "hashTag": word.lowercased(), "comment": self.captionTextView.text] as [String : Any]
-//                hashTagsRef.setValue(data)
             }
         }
         
